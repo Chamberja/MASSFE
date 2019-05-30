@@ -1,0 +1,14 @@
+{
+  "name": "MASSFE",
+  "version": "0.0.1",
+  "description": "MASS Frontend",
+  "main": "index.js",
+  "author": "Jason Ames",
+  "license": "MIT",
+  "scripts": {
+    "sass": "node-sass --watch src/styles -o css"
+  },
+  "dev-dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
