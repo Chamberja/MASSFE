@@ -21,6 +21,12 @@ section[role="container"] {
   color: white;
   font-size: 78px; }
 
+section[role="mass-logo"] {
+  display: flex;
+  flex-flow: column; }
+  section[role="mass-logo"] img {
+    border-radius: 130px; }
+
 h1, h2 {
   margin: 0 auto; }
 

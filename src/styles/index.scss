@@ -28,6 +28,12 @@ section[role="eve-logo"] {
 }
 
 section[role="mass-logo"] {
+  display: flex;
+  flex-flow: column;
+
+  img {
+    border-radius: 130px;
+  }
 }
 
 section[role="controls"] {
