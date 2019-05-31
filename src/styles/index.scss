@@ -1,3 +1,74 @@
+html {
+  background: #100e0d;
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
-  background: black;
+  background: url("../src/assets/bg001.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 99vh;
+  animation: bg-animation 20s;
+  animation-iteration-count: infinite;
+}
+
+section[role="container"] {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: column;
+  height: 100%;
+  color: white;
+  font-size: 78px;
+}
+
+section[role="eve-logo"] {
+}
+
+section[role="mass-logo"] {
+  img {
+    border-radius: 130px;
+    border: 1px solid white;
+  }
+}
+
+section[role="controls"] {
+}
+
+h1, h2 {
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background: transparent;
+  padding: .25rem 1rem;
+  font-size: 32px;
+  border-radius: 10px;
+  border: 3px solid white;
+
+  &:hover {
+    background: white;
+    color: black;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    filter: saturate(30%);
+  }
+
+  50% {
+    filter: saturate(70%);
+  }
+
+  100% {
+    filter: saturate(30%);
+  }
 }
